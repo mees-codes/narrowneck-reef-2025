@@ -6,7 +6,10 @@ __pycache__/
 # C extensions
 *.so
 
+.xml
 # Distribution / packaging
+*.xml
+.py[cod]
 .Python
 build/
 develop-eggs/
@@ -28,6 +31,10 @@ venv/
 ENV/
 env/
 .env
+
+# Byte-compiled files
+*.pyc
+__pycache__/
 
 # Pytest cache
 .pytest_cache/
